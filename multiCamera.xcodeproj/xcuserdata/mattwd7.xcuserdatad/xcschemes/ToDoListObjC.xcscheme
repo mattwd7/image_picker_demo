@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A95978FC19736A5D00CDD9B4"
-               BuildableName = "ToDoListObjC.app"
-               BlueprintName = "ToDoListObjC"
-               ReferencedContainer = "container:ToDoListObjC.xcodeproj">
+               BuildableName = "multiCamera.app"
+               BlueprintName = "multiCamera"
+               ReferencedContainer = "container:multiCamera.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A959791719736A5D00CDD9B4"
-               BuildableName = "ToDoListObjCTests.xctest"
-               BlueprintName = "ToDoListObjCTests"
-               ReferencedContainer = "container:ToDoListObjC.xcodeproj">
+               BuildableName = "multiCameraTests.xctest"
+               BlueprintName = "multiCameraTests"
+               ReferencedContainer = "container:multiCamera.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A95978FC19736A5D00CDD9B4"
-            BuildableName = "ToDoListObjC.app"
-            BlueprintName = "ToDoListObjC"
-            ReferencedContainer = "container:ToDoListObjC.xcodeproj">
+            BuildableName = "multiCamera.app"
+            BlueprintName = "multiCamera"
+            ReferencedContainer = "container:multiCamera.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A95978FC19736A5D00CDD9B4"
-            BuildableName = "ToDoListObjC.app"
-            BlueprintName = "ToDoListObjC"
-            ReferencedContainer = "container:ToDoListObjC.xcodeproj">
+            BuildableName = "multiCamera.app"
+            BlueprintName = "multiCamera"
+            ReferencedContainer = "container:multiCamera.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A95978FC19736A5D00CDD9B4"
-            BuildableName = "ToDoListObjC.app"
-            BlueprintName = "ToDoListObjC"
-            ReferencedContainer = "container:ToDoListObjC.xcodeproj">
+            BuildableName = "multiCamera.app"
+            BlueprintName = "multiCamera"
+            ReferencedContainer = "container:multiCamera.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

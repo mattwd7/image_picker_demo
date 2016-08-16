@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9042CAC197F67AA0075317D /* overlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9042CAB197F67AA0075317D /* overlayView.xib */; };
+		A9042CF3198472A50075317D /* XYZCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9042CF1198472A50075317D /* XYZCameraViewController.m */; };
+		A9042CF4198472A50075317D /* XYZCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9042CF2198472A50075317D /* XYZCameraViewController.xib */; };
+		A9042CF61984744E0075317D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9042CF51984744E0075317D /* AVFoundation.framework */; };
+		A914FE6F198586D4005B9FD8 /* XYZPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A914FE6E198586D4005B9FD8 /* XYZPhotoViewController.m */; };
+		A95771441974E615008FE243 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95771431974E615008FE243 /* Main.storyboard */; };
+		A957714A1974F2BE008FE243 /* XYZToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A95771491974F2BE008FE243 /* XYZToDoListTableViewController.m */; };
+		A957714D1974F5A2008FE243 /* XYZToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A957714C1974F5A2008FE243 /* XYZToDoItem.m */; };
 		A959790119736A5D00CDD9B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A959790019736A5D00CDD9B4 /* Foundation.framework */; };
 		A959790319736A5D00CDD9B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A959790219736A5D00CDD9B4 /* CoreGraphics.framework */; };
 		A959790519736A5D00CDD9B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A959790419736A5D00CDD9B4 /* UIKit.framework */; };
@@ -19,6 +27,11 @@
 		A959791C19736A5D00CDD9B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A959790419736A5D00CDD9B4 /* UIKit.framework */; };
 		A959792419736A5D00CDD9B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A959792219736A5D00CDD9B4 /* InfoPlist.strings */; };
 		A959792619736A5D00CDD9B4 /* ToDoListObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A959792519736A5D00CDD9B4 /* ToDoListObjCTests.m */; };
+		A96C2BCB197C6EA3004CA957 /* XYZOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C2BCA197C6EA3004CA957 /* XYZOverlayView.m */; };
+		A96C2BD1197E1732004CA957 /* XYZPhotosTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C2BD0197E1732004CA957 /* XYZPhotosTableViewController.m */; };
+		A96C2BD4197E19CC004CA957 /* XYZPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = A96C2BD3197E19CC004CA957 /* XYZPhoto.m */; };
+		A9FC7DA5199333CA00103342 /* XYZImagePreview.m in Sources */ = {isa = PBXBuildFile; fileRef = A9FC7DA3199333CA00103342 /* XYZImagePreview.m */; };
+		A9FC7DA6199333CA00103342 /* XYZImagePreview.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9FC7DA4199333CA00103342 /* XYZImagePreview.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,22 +45,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A95978FD19736A5D00CDD9B4 /* ToDoListObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9042CAB197F67AA0075317D /* overlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = overlayView.xib; sourceTree = "<group>"; };
+		A9042CF0198472A50075317D /* XYZCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZCameraViewController.h; sourceTree = "<group>"; };
+		A9042CF1198472A50075317D /* XYZCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZCameraViewController.m; sourceTree = "<group>"; };
+		A9042CF2198472A50075317D /* XYZCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZCameraViewController.xib; sourceTree = "<group>"; };
+		A9042CF51984744E0075317D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A914FE6D198586D4005B9FD8 /* XYZPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPhotoViewController.h; sourceTree = "<group>"; };
+		A914FE6E198586D4005B9FD8 /* XYZPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPhotoViewController.m; sourceTree = "<group>"; };
+		A95771431974E615008FE243 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A95771481974F2BE008FE243 /* XYZToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoListTableViewController.h; sourceTree = "<group>"; };
+		A95771491974F2BE008FE243 /* XYZToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoListTableViewController.m; sourceTree = "<group>"; };
+		A957714B1974F5A2008FE243 /* XYZToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZToDoItem.h; sourceTree = "<group>"; };
+		A957714C1974F5A2008FE243 /* XYZToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZToDoItem.m; sourceTree = "<group>"; };
+		A95978FD19736A5D00CDD9B4 /* multiCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = multiCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A959790019736A5D00CDD9B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A959790219736A5D00CDD9B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		A959790419736A5D00CDD9B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		A959790819736A5D00CDD9B4 /* ToDoListObjC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListObjC-Info.plist"; sourceTree = "<group>"; };
+		A959790819736A5D00CDD9B4 /* multiCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multiCamera-Info.plist"; sourceTree = "<group>"; };
 		A959790A19736A5D00CDD9B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A959790C19736A5D00CDD9B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A959790E19736A5D00CDD9B4 /* ToDoListObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ToDoListObjC-Prefix.pch"; sourceTree = "<group>"; };
+		A959790E19736A5D00CDD9B4 /* CameraOverlay-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraOverlay-Prefix.pch"; sourceTree = "<group>"; };
 		A959790F19736A5D00CDD9B4 /* XYZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZAppDelegate.h; sourceTree = "<group>"; };
 		A959791019736A5D00CDD9B4 /* XYZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZAppDelegate.m; sourceTree = "<group>"; };
 		A959791219736A5D00CDD9B4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		A959791819736A5D00CDD9B4 /* ToDoListObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A959791819736A5D00CDD9B4 /* multiCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = multiCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A959791919736A5D00CDD9B4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		A959792119736A5D00CDD9B4 /* ToDoListObjCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListObjCTests-Info.plist"; sourceTree = "<group>"; };
+		A959792119736A5D00CDD9B4 /* multiCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "multiCameraTests-Info.plist"; sourceTree = "<group>"; };
 		A959792319736A5D00CDD9B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A959792519736A5D00CDD9B4 /* ToDoListObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListObjCTests.m; sourceTree = "<group>"; };
+		A96C2BC9197C6EA3004CA957 /* XYZOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZOverlayView.h; sourceTree = "<group>"; };
+		A96C2BCA197C6EA3004CA957 /* XYZOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZOverlayView.m; sourceTree = "<group>"; };
+		A96C2BCF197E1732004CA957 /* XYZPhotosTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPhotosTableViewController.h; sourceTree = "<group>"; };
+		A96C2BD0197E1732004CA957 /* XYZPhotosTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPhotosTableViewController.m; sourceTree = "<group>"; };
+		A96C2BD2197E19CC004CA957 /* XYZPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZPhoto.h; sourceTree = "<group>"; };
+		A96C2BD3197E19CC004CA957 /* XYZPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZPhoto.m; sourceTree = "<group>"; };
+		A9FC7DA2199333CA00103342 /* XYZImagePreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZImagePreview.h; sourceTree = "<group>"; };
+		A9FC7DA3199333CA00103342 /* XYZImagePreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZImagePreview.m; sourceTree = "<group>"; };
+		A9FC7DA4199333CA00103342 /* XYZImagePreview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYZImagePreview.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9042CF61984744E0075317D /* AVFoundation.framework in Frameworks */,
 				A959790319736A5D00CDD9B4 /* CoreGraphics.framework in Frameworks */,
 				A959790519736A5D00CDD9B4 /* UIKit.framework in Frameworks */,
 				A959790119736A5D00CDD9B4 /* Foundation.framework in Frameworks */,
@@ -87,8 +122,8 @@
 		A95978FE19736A5D00CDD9B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A95978FD19736A5D00CDD9B4 /* ToDoListObjC.app */,
-				A959791819736A5D00CDD9B4 /* ToDoListObjCTests.xctest */,
+				A95978FD19736A5D00CDD9B4 /* multiCamera.app */,
+				A959791819736A5D00CDD9B4 /* multiCameraTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +131,7 @@
 		A95978FF19736A5D00CDD9B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9042CF51984744E0075317D /* AVFoundation.framework */,
 				A959790019736A5D00CDD9B4 /* Foundation.framework */,
 				A959790219736A5D00CDD9B4 /* CoreGraphics.framework */,
 				A959790419736A5D00CDD9B4 /* UIKit.framework */,
@@ -109,6 +145,10 @@
 			children = (
 				A959790F19736A5D00CDD9B4 /* XYZAppDelegate.h */,
 				A959791019736A5D00CDD9B4 /* XYZAppDelegate.m */,
+				A95771431974E615008FE243 /* Main.storyboard */,
+				A96C2BCE197CADE5004CA957 /* Controllers */,
+				A96C2BCD197CADDE004CA957 /* Models */,
+				A96C2BCC197CADBC004CA957 /* Views */,
 				A959791219736A5D00CDD9B4 /* Images.xcassets */,
 				A959790719736A5D00CDD9B4 /* Supporting Files */,
 			);
@@ -118,10 +158,10 @@
 		A959790719736A5D00CDD9B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A959790819736A5D00CDD9B4 /* ToDoListObjC-Info.plist */,
+				A959790819736A5D00CDD9B4 /* multiCamera-Info.plist */,
 				A959790919736A5D00CDD9B4 /* InfoPlist.strings */,
 				A959790C19736A5D00CDD9B4 /* main.m */,
-				A959790E19736A5D00CDD9B4 /* ToDoListObjC-Prefix.pch */,
+				A959790E19736A5D00CDD9B4 /* CameraOverlay-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,18 +178,58 @@
 		A959792019736A5D00CDD9B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A959792119736A5D00CDD9B4 /* ToDoListObjCTests-Info.plist */,
+				A959792119736A5D00CDD9B4 /* multiCameraTests-Info.plist */,
 				A959792219736A5D00CDD9B4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A96C2BCC197CADBC004CA957 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A96C2BC9197C6EA3004CA957 /* XYZOverlayView.h */,
+				A96C2BCA197C6EA3004CA957 /* XYZOverlayView.m */,
+				A9042CAB197F67AA0075317D /* overlayView.xib */,
+				A9042CF0198472A50075317D /* XYZCameraViewController.h */,
+				A9042CF1198472A50075317D /* XYZCameraViewController.m */,
+				A9042CF2198472A50075317D /* XYZCameraViewController.xib */,
+				A9FC7DA2199333CA00103342 /* XYZImagePreview.h */,
+				A9FC7DA3199333CA00103342 /* XYZImagePreview.m */,
+				A9FC7DA4199333CA00103342 /* XYZImagePreview.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A96C2BCD197CADDE004CA957 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A957714B1974F5A2008FE243 /* XYZToDoItem.h */,
+				A957714C1974F5A2008FE243 /* XYZToDoItem.m */,
+				A96C2BD2197E19CC004CA957 /* XYZPhoto.h */,
+				A96C2BD3197E19CC004CA957 /* XYZPhoto.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A96C2BCE197CADE5004CA957 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A95771481974F2BE008FE243 /* XYZToDoListTableViewController.h */,
+				A95771491974F2BE008FE243 /* XYZToDoListTableViewController.m */,
+				A96C2BCF197E1732004CA957 /* XYZPhotosTableViewController.h */,
+				A96C2BD0197E1732004CA957 /* XYZPhotosTableViewController.m */,
+				A914FE6D198586D4005B9FD8 /* XYZPhotoViewController.h */,
+				A914FE6E198586D4005B9FD8 /* XYZPhotoViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A95978FC19736A5D00CDD9B4 /* ToDoListObjC */ = {
+		A95978FC19736A5D00CDD9B4 /* multiCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A959792919736A5D00CDD9B4 /* Build configuration list for PBXNativeTarget "ToDoListObjC" */;
+			buildConfigurationList = A959792919736A5D00CDD9B4 /* Build configuration list for PBXNativeTarget "multiCamera" */;
 			buildPhases = (
 				A95978F919736A5D00CDD9B4 /* Sources */,
 				A95978FA19736A5D00CDD9B4 /* Frameworks */,
@@ -159,14 +239,14 @@
 			);
 			dependencies = (
 			);
-			name = ToDoListObjC;
+			name = multiCamera;
 			productName = ToDoListObjC;
-			productReference = A95978FD19736A5D00CDD9B4 /* ToDoListObjC.app */;
+			productReference = A95978FD19736A5D00CDD9B4 /* multiCamera.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A959791719736A5D00CDD9B4 /* ToDoListObjCTests */ = {
+		A959791719736A5D00CDD9B4 /* multiCameraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A959792C19736A5D00CDD9B4 /* Build configuration list for PBXNativeTarget "ToDoListObjCTests" */;
+			buildConfigurationList = A959792C19736A5D00CDD9B4 /* Build configuration list for PBXNativeTarget "multiCameraTests" */;
 			buildPhases = (
 				A959791419736A5D00CDD9B4 /* Sources */,
 				A959791519736A5D00CDD9B4 /* Frameworks */,
@@ -177,9 +257,9 @@
 			dependencies = (
 				A959791E19736A5D00CDD9B4 /* PBXTargetDependency */,
 			);
-			name = ToDoListObjCTests;
+			name = multiCameraTests;
 			productName = ToDoListObjCTests;
-			productReference = A959791819736A5D00CDD9B4 /* ToDoListObjCTests.xctest */;
+			productReference = A959791819736A5D00CDD9B4 /* multiCameraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -197,7 +277,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A95978F819736A5D00CDD9B4 /* Build configuration list for PBXProject "ToDoListObjC" */;
+			buildConfigurationList = A95978F819736A5D00CDD9B4 /* Build configuration list for PBXProject "multiCamera" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -209,8 +289,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A95978FC19736A5D00CDD9B4 /* ToDoListObjC */,
-				A959791719736A5D00CDD9B4 /* ToDoListObjCTests */,
+				A95978FC19736A5D00CDD9B4 /* multiCamera */,
+				A959791719736A5D00CDD9B4 /* multiCameraTests */,
 			);
 		};
 /* End PBXProject section */
@@ -220,6 +300,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FC7DA6199333CA00103342 /* XYZImagePreview.xib in Resources */,
+				A95771441974E615008FE243 /* Main.storyboard in Resources */,
+				A9042CF4198472A50075317D /* XYZCameraViewController.xib in Resources */,
+				A9042CAC197F67AA0075317D /* overlayView.xib in Resources */,
 				A959790B19736A5D00CDD9B4 /* InfoPlist.strings in Resources */,
 				A959791319736A5D00CDD9B4 /* Images.xcassets in Resources */,
 			);
@@ -240,8 +324,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9FC7DA5199333CA00103342 /* XYZImagePreview.m in Sources */,
+				A96C2BD4197E19CC004CA957 /* XYZPhoto.m in Sources */,
+				A96C2BD1197E1732004CA957 /* XYZPhotosTableViewController.m in Sources */,
+				A96C2BCB197C6EA3004CA957 /* XYZOverlayView.m in Sources */,
+				A914FE6F198586D4005B9FD8 /* XYZPhotoViewController.m in Sources */,
 				A959791119736A5D00CDD9B4 /* XYZAppDelegate.m in Sources */,
+				A957714D1974F5A2008FE243 /* XYZToDoItem.m in Sources */,
 				A959790D19736A5D00CDD9B4 /* main.m in Sources */,
+				A957714A1974F2BE008FE243 /* XYZToDoListTableViewController.m in Sources */,
+				A9042CF3198472A50075317D /* XYZCameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +350,7 @@
 /* Begin PBXTargetDependency section */
 		A959791E19736A5D00CDD9B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A95978FC19736A5D00CDD9B4 /* ToDoListObjC */;
+			target = A95978FC19736A5D00CDD9B4 /* multiCamera */;
 			targetProxy = A959791D19736A5D00CDD9B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -359,9 +451,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ToDoListObjC/ToDoListObjC-Prefix.pch";
-				INFOPLIST_FILE = "ToDoListObjC/ToDoListObjC-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ToDoListObjC/multiCamera-Prefix.pch";
+				INFOPLIST_FILE = "ToDoListObjC/multiCamera-Info.plist";
+				PRODUCT_NAME = multiCamera;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,9 +464,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ToDoListObjC/ToDoListObjC-Prefix.pch";
-				INFOPLIST_FILE = "ToDoListObjC/ToDoListObjC-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "ToDoListObjC/multiCamera-Prefix.pch";
+				INFOPLIST_FILE = "ToDoListObjC/multiCamera-Info.plist";
+				PRODUCT_NAME = multiCamera;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -394,8 +486,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "ToDoListObjCTests/ToDoListObjCTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ToDoListObjCTests/multiCameraTests-Info.plist";
+				PRODUCT_NAME = multiCameraTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -412,8 +504,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ToDoListObjC/ToDoListObjC-Prefix.pch";
-				INFOPLIST_FILE = "ToDoListObjCTests/ToDoListObjCTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "ToDoListObjCTests/multiCameraTests-Info.plist";
+				PRODUCT_NAME = multiCameraTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -422,7 +514,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A95978F819736A5D00CDD9B4 /* Build configuration list for PBXProject "ToDoListObjC" */ = {
+		A95978F819736A5D00CDD9B4 /* Build configuration list for PBXProject "multiCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A959792719736A5D00CDD9B4 /* Debug */,
@@ -431,21 +523,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A959792919736A5D00CDD9B4 /* Build configuration list for PBXNativeTarget "ToDoListObjC" */ = {
+		A959792919736A5D00CDD9B4 /* Build configuration list for PBXNativeTarget "multiCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A959792A19736A5D00CDD9B4 /* Debug */,
 				A959792B19736A5D00CDD9B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A959792C19736A5D00CDD9B4 /* Build configuration list for PBXNativeTarget "ToDoListObjCTests" */ = {
+		A959792C19736A5D00CDD9B4 /* Build configuration list for PBXNativeTarget "multiCameraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A959792D19736A5D00CDD9B4 /* Debug */,
 				A959792E19736A5D00CDD9B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
